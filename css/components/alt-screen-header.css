@@ -1,0 +1,24 @@
+.alt-header {
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alt-header__collum {
+    margin-top: 10px;
+}
+
+.alt-header__title {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.alt-header__collum:first-child {
+    margin-right: auto;
+}
+
+.alt-header__collum:last-child {
+    margin-left: auto;
+}
