@@ -8,6 +8,8 @@
 
 .alt-header__collum {
     margin-top: 10px;
+    width: 33%;
+
 }
 
 .alt-header__title {
@@ -19,6 +21,15 @@
     margin-right: auto;
 }
 
+.alt-header__collum:nth-child(2) {
+    text-align: center;
+}
 .alt-header__collum:last-child {
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alt-header__collum span:last-child {
+    margin-left: 20px;
 }
